@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">helloWorld</string>
+    <string name="text">makan bang</string>
+    <string name="button_label_toast">Max</string>
+    <string name="button_label_count">count</string>
+    <string name="count_initial_value">0</string>
+    <string name="button_label_back">back</string>
+    <string name="toast_message">Fibonacci Sequence</string>
+    <string name="toast_max_message">Sudah mencapai max</string>
+
+
+
+    <string name="article_title">Radiohead</string>
+    <string name="article_subtitle">BritRock Band</string>
+    <string name="article_text">Radiohead adalah sebuah grup musik eksperimental rock alternatif asal Britania Raya, terbentuk pada tahun 1985. Band ini terdiri dari Thom Yorke (vokal utama, gitar ritmis, piano), Jonny Greenwood (gitar utama, keyboard, penyintesis modular, Ondes Martenot, glockenspiel, dan lain-lain), Ed O Brien (gitar, vokal, perkusi tambahan), Colin Greenwood (gitar bas, penyintesis, Phil Selway (drum, perkusi).
+
+Radiohead merilis singel pertama mereka, Creep, pada tahun 1992. Pada awalnya lagu ini tidak sukses, tetapi menjadi hits di seluruh dunia beberapa bulan setelah rilisnya album debut mereka, Pablo Honey (1993). Popularitas Radiohead naik di Britania Raya dengan rilisnya album studio kedua mereka, The Bends (1995). Album ketiga Radiohead, OK Computer (1997), membawa ketenaran dan kesuksesan internasional. Terkenal karena produksinya yang kompleks dan tema-tema alienasi modern, OK Computer sering diakui sebagai rekaman landmark tahun 1990-an dan salah satu album terbaik dalam musik populer.
+
+        Kid A (2000) dan Amnesiac (2001) menandai perubahan gaya musikal Radiohead, menggabungkan musik elektronik, jazz, musik klasik dan Krautrock. Meskipun Kid A membuat bingung pendengarnya, itu kemudian mendapatkan pujian luas dari para kritikus musik. Hail to the Thief (2003), sebuah campuran rock yang didominasi gitar, elektronik dan lirik-lirik yang terinspriasi dari perang, adalah album terakhir band ini untuk label rekaman mayor mereka, EMI. Radiohead secara independen merilis album ketujuh mereka, In Rainbows (2007), awalnya sebagai unduh digital di mana para pelanggan bisa menetapkan harga mereka sendiri, dan selanjutnya dalam format fisik yang sukses dalam kritik dan tangga album di seluruh dunia.
+        Radiohead merilis album kedelapan mereka, The King of Limbs (2011) dalam format yang beragam. Pada Mei 2016, setelah mengeluarkan dua singel, Radiohead merilis album kesembilan mereka, A Moon Shaped Pool.
+
+        Pada 2011, Radiohead telah menjual lebih dari 30 juta album di seluruh dunia. Penghargaan yang mereka dapatkan termasuk enam Grammy Awardsdan empat Ivor Novello Awards. Tujuh single Radiohead telah mencapai peringkat 10 besar di UK Singles Chart:  Creep  (1992),  Street Spirit (Fade Out)  (1996),  Paranoid Android  (1997),  Karma Police  (1997),  No Surprises  (1998),  Pyramid Song  (2001) and  There There  (2003).  Creep  dan  Nude  (2008) merupakan lagu mereka yang berhasil masuk peringkat 40 besar di Billboard Hot 100 Amerika. Rolling Stone menyebut Radiohead sebagai salah satu dari 100 artis terhebat sepanjang masa, dan pembaca Rolling Stone memilih mereka sebagai artis terbaik kedua dekade 2000-an. Lima album Radiohead telah dimasukkan dalam daftar 500 album terbaik sepanjang masa versi majalah Rolling Stone, dan band ini adalah artis yang paling banyak dinominasikan dalam sejarah Mercury Prize, dengan lima nominasi. Mereka dilantik ke dalam Rock and Roll Hall of Fame pada tahun 2019</string>
+
+    <string name="button_main">Send</string>
+    <string name="editText_main">Enter Your Message Here</string>
+    <string name="text_header">Message Received</string>
+    <string name="button_second">Reply</string>
+    <string name="editText_second">Enter Your Reply Here</string>
+    <string name="textHeader_reply">Reply Received</string>
+</resources>
