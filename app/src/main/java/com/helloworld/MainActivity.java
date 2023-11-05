@@ -26,11 +26,6 @@ public class MainActivity extends AppCompatActivity {
         n2 = 1;
     }
 
-    private void countDisplay(){
-        mShowCount.setText(String.valueOf(n2));
-
-    }
-
     public void  showToast(View view){
         Toast toast = Toast.makeText(this, R.string.toast_message,
                 Toast.LENGTH_SHORT);
@@ -54,15 +49,15 @@ public class MainActivity extends AppCompatActivity {
         }
         n2 = n1;
         n1 = fib;
-        countDisplay();
-
         mCount++;
+
+        mShowCount.setText(String.valueOf(n2));
     }
 
     public void countDown(View view){
         mCount = 1;
         n1 = 1;
         n2 = 0;
-        countDisplay();
+        mShowCount.setText(String.valueOf(n2));
     }
 }
