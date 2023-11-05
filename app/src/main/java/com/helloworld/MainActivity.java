@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         int fib;
-        if (mCount == 0 || mCount == 0){
+        if (mCount == 0){
             fib = 1;
         } else {
             fib = n1 + n2;
