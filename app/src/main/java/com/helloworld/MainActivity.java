@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
     private int n2 = 0;
     private TextView mShowCount;
     private EditText mEditText;
-    private int max;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void countUp(View view) {
 
+        int max = Integer.parseInt(mEditText.getText().toString());
 
         if (mCount >= max){
             Toast.makeText(this, R.string.toast_max_message, Toast.LENGTH_SHORT).show();
