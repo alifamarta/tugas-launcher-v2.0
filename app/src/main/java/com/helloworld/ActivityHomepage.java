@@ -25,10 +25,6 @@ public class ActivityHomepage extends AppCompatActivity {
         btnTwoActivity = findViewById(R.id.btnTwoActivity);
         btnAlarm = findViewById(R.id.btnAlarm);
 
-        setClick();
-    }
-
-    public void setClick() {
         btnHello.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
