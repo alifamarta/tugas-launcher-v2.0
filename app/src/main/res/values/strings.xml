@@ -37,4 +37,11 @@ One After 909 — A song recorded for the ¨C11C album was actually worked on wa
     <string name="editText_second">Enter Your Reply Here</string>
     <string name="textHeader_reply">Reply Received</string>
     <string name="button_alarm">Alarm</string>
+
+    <string name="btnHello">Project Hello</string>
+    <string name="btnCount">Project Count</string>
+    <string name="btnScrollice">Project Sianida</string>
+    <string name="btnTwoAct">Project Two Activity</string>
+    <string name="btnAlarm">Project Set Alarm</string>
+    <string name="btnMaps">Maps</string>
 </resources>

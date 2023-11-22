@@ -18,8 +18,8 @@
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="@dimen/padding_regular"
-        android:backgroundTint="#FF0000"
-        android:text="Project Hello"
+        android:backgroundTint="@color/red"
+        android:text="@string/btnHello"
         android:textStyle="bold"
         android:textColor="@color/white" />
 
@@ -32,7 +32,7 @@
         android:layout_marginTop="@dimen/padding_regular"
         android:layout_marginBottom="@dimen/padding_regular"
         android:backgroundTint="@color/red"
-        android:text="Project Count"
+        android:text="@string/btnCount"
         android:textStyle="bold"
         android:textColor="@color/white"/>
 
@@ -45,7 +45,7 @@
         android:layout_marginTop="@dimen/padding_regular"
         android:layout_marginBottom="@dimen/padding_regular"
         android:backgroundTint="@color/red"
-        android:text="Project Sianida"
+        android:text="@string/btnScrollice"
         android:textStyle="bold"
         android:textColor="@color/white"/>
 
@@ -58,7 +58,7 @@
         android:layout_marginBottom="@dimen/padding_regular"
         android:layout_marginTop="@dimen/padding_regular"
         android:backgroundTint="@color/red"
-        android:text="Project Two Activity"
+        android:text="@string/btnTwoAct"
         android:textStyle="bold"
         android:textColor="@color/white"/>
 
@@ -71,7 +71,19 @@
         android:layout_marginBottom="@dimen/padding_regular"
         android:layout_marginTop="@dimen/padding_regular"
         android:backgroundTint="@color/red"
-        android:text="Project Set Alarm"
+        android:text="@string/btnAlarm"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/red"
+        android:layout_marginTop="@dimen/padding_regular"
+        android:text="@string/btnMaps"
         android:textStyle="bold"
         android:textColor="@color/white"/>
 </LinearLayout>
