@@ -23,13 +23,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ActivityHomepage"></activity>
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".CountActivity"></activity>
-        <activity android:name=".ScrollingActivity"></activity>
-        <activity android:name=".FirstActivity"></activity>
-        <activity android:name=".SecondActivity"></activity>
-        <activity android:name=".AlarmActivity"></activity>
+        <activity android:name=".ActivityHomepage" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CountActivity" />
+        <activity android:name=".ScrollingActivity" />
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".AlarmActivity" />
 
         <receiver android:name="com.helloworld.AlarmReceiver" />
     </application>
