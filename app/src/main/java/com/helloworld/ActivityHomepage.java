@@ -5,15 +5,17 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ActivityHomepage extends AppCompatActivity {
-    Button btnHello;
-    Button btnCount;
-    Button btnScrollice;
-    Button btnTwoActivity;
-    Button btnAlarm;
+    ImageView btnHello;
+    ImageView btnCount;
+    ImageView btnScrollice;
+    ImageView btnTwoActivity;
+    ImageView btnAlarm;
+    ImageView btnMaps;
 
 
     @Override
@@ -21,11 +23,12 @@ public class ActivityHomepage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
 
-        btnHello = findViewById(R.id.btnHello);
-        btnCount = findViewById(R.id.btnCount);
-        btnScrollice = findViewById(R.id.btnScrollice);
-        btnTwoActivity = findViewById(R.id.btnTwoActivity);
-        btnAlarm = findViewById(R.id.btnAlarm);
+        btnHello = (ImageView) findViewById(R.id.btnHello);
+        btnCount = (ImageView) findViewById(R.id.btnCount);
+        btnScrollice = (ImageView) findViewById(R.id.btnScrollice);
+        btnTwoActivity = (ImageView) findViewById(R.id.btnTwoActivity);
+        btnAlarm = (ImageView) findViewById(R.id.btnAlarm);
+        btnMaps = (ImageView) findViewById(R.id.btnMaps);
 
         clickListener();
     }
@@ -68,6 +71,18 @@ public class ActivityHomepage extends AppCompatActivity {
             public void onClick(View view) {
                 Intent AlarmIntent = new Intent(ActivityHomepage.this, AlarmActivity.class);
                 startActivity(AlarmIntent);
+            }
+        });
+
+        btnMaps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Uri gmm = Uri.parse("google.streetview:cbll=46.414382,10.013988");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmm);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                if (mapIntent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(mapIntent);
+                }
             }
         });
     }

@@ -1,77 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginStart="0dp"
-    android:layout_marginEnd="0dp"
-    android:background="@color/white"
-    android:gravity="center_vertical"
-    android:orientation="vertical"
-    tools:context=".SplashScreen">
+    android:columnCount="3"
+    android:rowCount="3"
+    android:alignmentMode="alignBounds"
+    android:useDefaultMargins="true">
 
-
-    <Button
+    <ImageView
         android:id="@+id/btnHello"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="@dimen/padding_regular"
-        android:backgroundTint="@color/red"
-        android:text="@string/btnHello"
-        android:textStyle="bold"
-        android:textColor="@color/white" />
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/hello" />
 
-    <Button
+    <ImageView
         android:id="@+id/btnCount"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginTop="@dimen/padding_regular"
-        android:layout_marginBottom="@dimen/padding_regular"
-        android:backgroundTint="@color/red"
-        android:text="@string/btnCount"
-        android:textStyle="bold"
-        android:textColor="@color/white"/>
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/count" />
 
-    <Button
+    <ImageView
         android:id="@+id/btnScrollice"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginTop="@dimen/padding_regular"
-        android:layout_marginBottom="@dimen/padding_regular"
-        android:backgroundTint="@color/red"
-        android:text="@string/btnScrollice"
-        android:textStyle="bold"
-        android:textColor="@color/white"/>
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/scrollice" />
 
-    <Button
+    <ImageView
         android:id="@+id/btnTwoActivity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="@dimen/padding_regular"
-        android:layout_marginTop="@dimen/padding_regular"
-        android:backgroundTint="@color/red"
-        android:text="@string/btnTwoAct"
-        android:textStyle="bold"
-        android:textColor="@color/white"/>
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/twoactivity" />
 
-    <Button
+    <ImageView
         android:id="@+id/btnAlarm"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="@dimen/padding_regular"
-        android:layout_marginTop="@dimen/padding_regular"
-        android:backgroundTint="@color/red"
-        android:text="@string/btnAlarm"
-        android:textStyle="bold"
-        android:textColor="@color/white"/>
-</LinearLayout>
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/alarm" />
+
+    <ImageView
+        android:id="@+id/btnMaps"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/maps" />
+</GridLayout>
