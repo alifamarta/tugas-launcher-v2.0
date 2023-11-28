@@ -1,6 +1,7 @@
 package com.helloworld;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,6 +14,8 @@ public class ActivityHomepage extends AppCompatActivity {
     Button btnScrollice;
     Button btnTwoActivity;
     Button btnAlarm;
+    Button btnMaps;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,44 +27,49 @@ public class ActivityHomepage extends AppCompatActivity {
         btnScrollice = findViewById(R.id.btnScrollice);
         btnTwoActivity = findViewById(R.id.btnTwoActivity);
         btnAlarm = findViewById(R.id.btnAlarm);
+        btnMaps = findViewById(R.id.btnMaps);
 
+        clickListener();
+    }
+
+    public void clickListener() {
         btnHello.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ActivityHomepage.this, MainActivity.class);
-                startActivity(intent);
+                Intent helloIntent = new Intent(ActivityHomepage.this, MainActivity.class);
+                startActivity(helloIntent);
             }
         });
 
         btnCount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ActivityHomepage.this, CountActivity.class);
-                startActivity(intent);
+                Intent countIntent = new Intent(ActivityHomepage.this, CountActivity.class);
+                startActivity(countIntent);
             }
         });
 
         btnScrollice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ActivityHomepage.this, ScrollingActivity.class);
-                startActivity(intent);
+                Intent scrolliceIntent = new Intent(ActivityHomepage.this, ScrollingActivity.class);
+                startActivity(scrolliceIntent);
             }
         });
 
         btnTwoActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ActivityHomepage.this, FirstActivity.class);
-                startActivity(intent);
+                Intent twoIntent = new Intent(ActivityHomepage.this, FirstActivity.class);
+                startActivity(twoIntent);
             }
         });
 
         btnAlarm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ActivityHomepage.this, AlarmActivity.class);
-                startActivity(intent);
+                Intent AlarmIntent = new Intent(ActivityHomepage.this, AlarmActivity.class);
+                startActivity(AlarmIntent);
             }
         });
     }
