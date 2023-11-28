@@ -14,7 +14,6 @@ public class ActivityHomepage extends AppCompatActivity {
     Button btnScrollice;
     Button btnTwoActivity;
     Button btnAlarm;
-    Button btnMaps;
 
 
     @Override
@@ -27,7 +26,6 @@ public class ActivityHomepage extends AppCompatActivity {
         btnScrollice = findViewById(R.id.btnScrollice);
         btnTwoActivity = findViewById(R.id.btnTwoActivity);
         btnAlarm = findViewById(R.id.btnAlarm);
-        btnMaps = findViewById(R.id.btnMaps);
 
         clickListener();
     }
