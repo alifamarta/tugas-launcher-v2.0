@@ -6,4 +6,4 @@ NIM: 312210326
 
 Kelas: TI.22.A3</b>
 
-<img src="https://github.com/alifamarta/tugas-launcher-v2.0/assets/115516820/4d7de352-b1d8-4a12-83f7-8fa621606d6f" width="360">
+<img src="https://github.com/alifamarta/tugas-launcher-v2.0/assets/115516820/1e92e515-b41c-41ef-8348-67002a4fe465" width="360">
