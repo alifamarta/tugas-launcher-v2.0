@@ -1,4 +1,4 @@
-package com.helloworld;
+package com.helloworld.activity;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -10,6 +10,8 @@ import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.helloworld.R;
 
 import java.util.Calendar;
 

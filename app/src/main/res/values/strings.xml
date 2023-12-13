@@ -9,7 +9,6 @@
     <string name="toast_max_message">Sudah mencapai max</string>
 
 
-
     <string name="article_title">Kasus Sianida</string>
     <string name="article_subtitle">ICE COLD</string>
     <string name="article_text">In a vault deep inside Abbey Road Studios in London — protected by an unmarked, triple-locked, police-alarmed door — are something like 400 hours of unreleased Beatles recordings, starting from June 2, 1962 and ending with the very last tracks recorded for the Let It Be album. The best of the best were released by Apple Records in the form of the 3-volume Anthology series. For more information, see the Beatles Time Capsule at www.rockument.com. \n\n This volume starts with the first new Beatle song, “Free as a Bird” (based on a John Lennon demo, found only on The Lost Lennon Tapes Vol. 28, and covers the very earliest historical recordings, outtakes from the first albums, and live recordings from early concerts and BBC Radio sessions. \n\n
@@ -44,4 +43,41 @@ One After 909 — A song recorded for the ¨C11C album was actually worked on wa
     <string name="btnTwoAct">Project Two Activity</string>
     <string name="btnAlarm">Project Set Alarm</string>
     <string name="btnMaps">Maps</string>
+
+    <string name="movieAct1title">John Wick Chapter 4</string>
+    <string name="movieAct1info">2023 | 2j 49m | Dir. Chad Stahelski</string>
+    <string name="movieAct1Syn">John Wick 4 akan berkisah tentang John Wick (Keanu Reeves) yang menghadapi musuhnya yang dinilai paling mematikan dalam seri keempat ini.
+
+Dengan ketegangan yang semakin meningkat, John Wick akan melakukan pertarungan melawan The High Table saat dirinya mencari pemain kuat di dunia.
+
+Perserikatan misterius ini terdiri dari 12 anggota dari seluruh organisasi kejahatan dunia seperti Yakuza, mafia Rusia, mafia Italia, kartel narkoba, atau triads China.</string>
+    <string name="movAct2title">Leon: The Professional</string>
+    <string name="movAct2info">1994 | 1j 50m | Dir. Luc Besson</string>
+    <string name="movAct2syn">Léon (Reno) menjalani kehidupan yang sepi di New York, bekerja sebagai pembunuh bayaran profesional untuk massa. Hampir diam dan benar-benar kejam,
+        Léon tampaknya tidak memiliki satu ons pun kemanusiaan.
+        Tetapi ketika tetangganya yang berusia 12 tahun, Mathilda (Portman), tiba di rumah untuk menemukan seluruh keluarganya dibantai oleh seorang pengedar narkoba (Oldman),
+        Léon membawanya masuk dan, sesuai permintaannya, mengajarinya alat-alat perdagangannya sehingga dia dapat membalas dendam pada pembunuh keluarganya.</string>
+    <string name="movCom1title">The Nice Guys</string>
+    <string name="movCom1info">2016 | 1j 56m</string>
+    <string name="movCom1syn">Pada tahun 1977 Los Angeles, Jackson Healy (Russell Crowe) adalah detektif swasta, macam. Dia adalah orang yang Anda hubungi ketika seseorang perlu diberi pesan, dengan kekerasan.
+        Holland March (Ryan Gosling) lebih sah dan konvensional, mengambil kasus yang melibatkan pelacakan orang hilang dan sejenisnya.
+        Jalan mereka bersilangan ketika bintang porno Misty Mountains meninggal dalam kecelakaan mobil.
+        Bibi Misty mempekerjakan March karena dia percaya bahwa Misty masih hidup. Investigasi mereka membawa mereka ke seorang wanita muda bernama Amelia dan plot konspirasi besar-besaran.</string>
+    <string name="movCom2title">Superbad</string>
+    <string name="movCom2info">2007 | 1j 53m | Dir. Greg Mottola</string>
+    <string name="movCom2syn">Komedi lucu tentang dua senior SMA yang telah berteman baik sejak mereka masih muda dan bersiap untuk akhirnya lulus.
+        Mereka tidak benar-benar "populer", bagaimanapun, itu tidak akan menghentikan mereka dari melakukan apa pun yang mereka bisa untuk akhirnya kehilangan keperawanan mereka sebelum kuliah untuk gadis-gadis tercantik dan paling keren di sekolah.
+        Ketika salah satu gadis meminta mereka untuk mendapatkan alkohol untuk pesta, mereka memulai petualangan untuk mendapatkannya dan membawanya ke pesta rumah kelulusan. Sayangnya, perjalanan itu ternyata jauh lebih sulit daripada yang mereka rencanakan semula.
+        Apakah mereka akan sampai ke pesta dengan alkohol tepat waktu? Atau akankah mereka kehilangan kesempatan terakhir untuk kehilangan keperawanan mereka kepada gadis-gadis impian mereka dan kehilangan satu sama lain dalam prosesnya?</string>
+    <string name="movRom1title">Chungking Express</string>
+    <string name="movRom1info">1994 | 1j 42m | Dir. Wong Kar-Wai</string>
+    <string name="movRom1syn">Film Wong Kar-Wai tentang dua polisi yang jatuh cinta difilmkan dalam percikan gerak dan warna impresionistik. 
+        Babak pertama berurusan dengan Polisi 223, yang telah putus dengan pacarnya selama lima tahun. Dia membeli sekaleng nanas dengan tanggal kedaluwarsa 1 Mei setiap hari selama sebulan. 
+        Pada akhir waktu itu, dia merasa bahwa dia akan bergabung kembali dengan cintanya atau bahwa itu juga akan berakhir selamanya. Babak kedua menunjukkan Polisi 663 berurusan dengan perpisahannya dengan pacar pramugarinya. 
+        Dia berbicara dengan perabotan apartemennya sampai dia bertemu dengan seorang gadis baru di konter makan siang lokal.</string>
+    <string name="movRom2title">Scott Pilgrim vs. The World</string>
+    <string name="movRom2info">2010 | 1j 52m | Dir. Edgar Wright</string>
+    <string name="movRom2syn">Scott Pilgrim bermain di sebuah band yang bercita-cita untuk sukses. Dia berkencan dengan Knives Chau, seorang gadis SMA lima tahun lebih muda, dan dia belum pulih dari dicampakkan oleh mantan pacarnya, sekarang sukses dengan bandnya sendiri.
+        Ketika Scott jatuh cinta pada Ramona Flowers, dia kesulitan putus dengan Knives dan mencoba menjalin asmara dengan Ramona. Seolah-olah menyulap dua wanita tidak cukup, Ramona datang dengan bagasi: tujuh mantan kekasih, dengan masing-masing Scott harus melakukan pertempuran sampai mati untuk memenangkan Ramona.</string>
+    
 </resources>

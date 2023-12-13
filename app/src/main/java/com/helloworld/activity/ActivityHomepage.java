@@ -1,4 +1,4 @@
-package com.helloworld;
+package com.helloworld.activity;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -8,6 +8,8 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.helloworld.R;
+
 public class ActivityHomepage extends AppCompatActivity {
     ImageView btnHello;
     ImageView btnCount;
@@ -16,6 +18,7 @@ public class ActivityHomepage extends AppCompatActivity {
     ImageView btnAlarm;
     ImageView btnMaps;
 
+    ImageView btnMovies;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +31,7 @@ public class ActivityHomepage extends AppCompatActivity {
         btnTwoActivity = (ImageView) findViewById(R.id.btnTwoActivity);
         btnAlarm = (ImageView) findViewById(R.id.btnAlarm);
         btnMaps = (ImageView) findViewById(R.id.btnMaps);
+        btnMovies = (ImageView) findViewById(R.id.btnMovies);
 
         clickListener();
     }
@@ -82,6 +86,14 @@ public class ActivityHomepage extends AppCompatActivity {
                 if (mapIntent.resolveActivity(getPackageManager()) != null) {
                     startActivity(mapIntent);
                 }
+            }
+        });
+
+        btnMovies.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent movIntent = new Intent(ActivityHomepage.this, FragmentActivity.class);
+                startActivity(movIntent);
             }
         });
     }

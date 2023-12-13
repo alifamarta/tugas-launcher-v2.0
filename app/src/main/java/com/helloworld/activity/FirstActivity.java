@@ -1,4 +1,4 @@
-package com.helloworld;
+package com.helloworld.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.helloworld.R;
 
 public class FirstActivity extends AppCompatActivity {
     private static final String LOG_TAG = FirstActivity.class.getSimpleName();

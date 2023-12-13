@@ -1,8 +1,10 @@
-package com.helloworld;
+package com.helloworld.activity;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.helloworld.R;
 
 public class ScrollingActivity extends AppCompatActivity {
 

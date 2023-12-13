@@ -1,4 +1,4 @@
-package com.helloworld;
+package com.helloworld.activity;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

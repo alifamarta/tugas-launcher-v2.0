@@ -1,4 +1,4 @@
-package com.helloworld;
+package com.helloworld.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.helloworld.R;
 
 public class CountActivity extends AppCompatActivity {
     private int mCount;
