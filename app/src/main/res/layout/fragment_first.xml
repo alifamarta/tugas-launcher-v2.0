@@ -21,7 +21,7 @@
                 android:layout_width="170dp"
                 android:layout_height="243dp"
                 android:layout_marginTop="50dp"
-                android:src="@drawable/johnwickch4" />
+                android:src="@drawable/doometernal" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -29,58 +29,131 @@
                 android:layout_marginTop="45dp"
                 android:layout_marginStart="175dp"
                 android:textSize="20sp"
-                android:text="@string/movieAct1title" />
+                android:text="@string/fps1title" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="175dp"
                 android:layout_marginTop="80dp"
-                android:text="@string/movieAct1info"/>
+                android:text="@string/fps1info"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="175dp"
-                android:layout_marginTop="120dp"
+                android:layout_marginTop="180dp"
                 android:lineSpacingExtra="@dimen/line_spacing"
-                android:text="@string/movieAct1Syn" />
+                android:text="@string/fps1syn" />
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="450dp"
+                android:layout_marginTop="370dp"
                 app:dividerColor="@android:color/darker_gray"/>
 
             <ImageView
                 android:layout_width="170dp"
                 android:layout_height="243dp"
-                android:layout_marginTop="480dp"
-                android:src="@drawable/leontheprofessional"
+                android:layout_marginTop="420dp"
+                android:src="@drawable/haloce"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="475dp"
+                android:layout_marginTop="415dp"
                 android:layout_marginStart="175dp"
                 android:textSize="20sp"
-                android:text="@string/movAct2title"/>
+                android:text="@string/fps2title"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="520dp"
+                android:layout_marginTop="450dp"
                 android:layout_marginStart="175dp"
-                android:text="@string/movAct2info"/>
+                android:text="@string/fps2info"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="175dp"
-                android:layout_marginTop="560dp"
+                android:layout_marginTop="545dp"
                 android:textSize="15sp"
-                android:text="@string/movAct2syn"/>
+                android:text="@string/fps2syn"/>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="970dp"
+                app:dividerColor="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="243dp"
+                android:layout_marginTop="1002dp"
+                android:src="@drawable/half_life"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="997dp"
+                android:layout_marginStart="175dp"
+                android:textSize="20sp"
+                android:text="@string/fps3title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1030dp"
+                android:layout_marginStart="175dp"
+                android:text="@string/fps3info"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="1125dp"
+                android:textSize="15sp"
+                android:text="@string/fps3syn"/>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1590dp"
+                app:dividerColor="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="243dp"
+                android:layout_marginTop="1640dp"
+                android:src="@drawable/wolfenstein"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1635dp"
+                android:layout_marginStart="175dp"
+                android:textSize="20sp"
+                android:text="@string/fps4title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1690dp"
+                android:layout_marginStart="175dp"
+                android:text="@string/fps4info"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="1785dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="15sp"
+                android:text="@string/fps4syn"/>
         </RelativeLayout>
     </ScrollView>
 </FrameLayout>

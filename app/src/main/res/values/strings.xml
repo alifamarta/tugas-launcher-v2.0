@@ -44,40 +44,57 @@ One After 909 — A song recorded for the ¨C11C album was actually worked on wa
     <string name="btnAlarm">Project Set Alarm</string>
     <string name="btnMaps">Maps</string>
 
-    <string name="movieAct1title">John Wick Chapter 4</string>
-    <string name="movieAct1info">2023 | 2j 49m | Dir. Chad Stahelski</string>
-    <string name="movieAct1Syn">John Wick 4 akan berkisah tentang John Wick (Keanu Reeves) yang menghadapi musuhnya yang dinilai paling mematikan dalam seri keempat ini.
+    <string name="fps1title">Doom: Eternal</string>
+    <string name="fps1info">Tanggal Rilis: 29 Maret 2020 \n\nPengembang: id Software \n\nPenerbit: Bethesda Softworks</string>
+    <string name="fps1syn">Dalam sekuel Doom (2016) ini, Neraka telah menguasai Bumi, jadi terserah pada Doom Slayer, mesin pembunuh iblis pamungkas yang diciptakan oleh kekuatan mistik, untuk mencabik-cabik kekuatan Neraka. Namun, Neraka tidak sendirian dalam pertarungan ini.</string>
 
-Dengan ketegangan yang semakin meningkat, John Wick akan melakukan pertarungan melawan The High Table saat dirinya mencari pemain kuat di dunia.
+    <string name="fps2title">Halo: Combat Evolved</string>
+    <string name="fps2info">Tanggal Rilis: 15 November 2001 \n\nPengembang: Bungie \n\nPenerbit: Microsoft Game Studios</string>
+    <string name="fps2syn">Umat manusia sedang dihancurkan oleh konglomerat ras alien yang semuanya berada di bawah bendera Covenant. Sebuah pesawat luar angkasa manusia diserang dan tidak memiliki kesempatan untuk bertahan hidup, dan sekarang satu-satunya harapan bagi umat manusia adalah Master Chief yang ditempa Spartan-II untuk memastikan Covenant tidak menguasai AI kapal, dan dengan demikian menemukan lokasi Bumi. Namun, para penumpang yang selamat terdampar di sebuah planet asing yang aneh bernama Halo, dan semuanya bertumpuk melawan mereka. Ini menjadi pertempuran yang menegangkan saat para kru pemberani, yang dipimpin oleh Master Chief dan AI Cortana, mencoba bertahan dari serangan Covenant.</string>
 
-Perserikatan misterius ini terdiri dari 12 anggota dari seluruh organisasi kejahatan dunia seperti Yakuza, mafia Rusia, mafia Italia, kartel narkoba, atau triads China.</string>
-    <string name="movAct2title">Leon: The Professional</string>
-    <string name="movAct2info">1994 | 1j 50m | Dir. Luc Besson</string>
-    <string name="movAct2syn">Léon (Reno) menjalani kehidupan yang sepi di New York, bekerja sebagai pembunuh bayaran profesional untuk massa. Hampir diam dan benar-benar kejam,
-        Léon tampaknya tidak memiliki satu ons pun kemanusiaan.
-        Tetapi ketika tetangganya yang berusia 12 tahun, Mathilda (Portman), tiba di rumah untuk menemukan seluruh keluarganya dibantai oleh seorang pengedar narkoba (Oldman),
-        Léon membawanya masuk dan, sesuai permintaannya, mengajarinya alat-alat perdagangannya sehingga dia dapat membalas dendam pada pembunuh keluarganya.</string>
-    <string name="movCom1title">The Nice Guys</string>
-    <string name="movCom1info">2016 | 1j 56m</string>
-    <string name="movCom1syn">Pada tahun 1977 Los Angeles, Jackson Healy (Russell Crowe) adalah detektif swasta, macam. Dia adalah orang yang Anda hubungi ketika seseorang perlu diberi pesan, dengan kekerasan.
-        Holland March (Ryan Gosling) lebih sah dan konvensional, mengambil kasus yang melibatkan pelacakan orang hilang dan sejenisnya.
-        Jalan mereka bersilangan ketika bintang porno Misty Mountains meninggal dalam kecelakaan mobil.
-        Bibi Misty mempekerjakan March karena dia percaya bahwa Misty masih hidup. Investigasi mereka membawa mereka ke seorang wanita muda bernama Amelia dan plot konspirasi besar-besaran.</string>
-    <string name="movCom2title">Superbad</string>
-    <string name="movCom2info">2007 | 1j 53m | Dir. Greg Mottola</string>
-    <string name="movCom2syn">Komedi lucu tentang dua senior SMA yang telah berteman baik sejak mereka masih muda dan bersiap untuk akhirnya lulus.
-        Mereka tidak benar-benar "populer", bagaimanapun, itu tidak akan menghentikan mereka dari melakukan apa pun yang mereka bisa untuk akhirnya kehilangan keperawanan mereka sebelum kuliah untuk gadis-gadis tercantik dan paling keren di sekolah.
-        Ketika salah satu gadis meminta mereka untuk mendapatkan alkohol untuk pesta, mereka memulai petualangan untuk mendapatkannya dan membawanya ke pesta rumah kelulusan. Sayangnya, perjalanan itu ternyata jauh lebih sulit daripada yang mereka rencanakan semula.
-        Apakah mereka akan sampai ke pesta dengan alkohol tepat waktu? Atau akankah mereka kehilangan kesempatan terakhir untuk kehilangan keperawanan mereka kepada gadis-gadis impian mereka dan kehilangan satu sama lain dalam prosesnya?</string>
-    <string name="movRom1title">Chungking Express</string>
-    <string name="movRom1info">1994 | 1j 42m | Dir. Wong Kar-Wai</string>
-    <string name="movRom1syn">Film Wong Kar-Wai tentang dua polisi yang jatuh cinta difilmkan dalam percikan gerak dan warna impresionistik. 
-        Babak pertama berurusan dengan Polisi 223, yang telah putus dengan pacarnya selama lima tahun. Dia membeli sekaleng nanas dengan tanggal kedaluwarsa 1 Mei setiap hari selama sebulan. 
-        Pada akhir waktu itu, dia merasa bahwa dia akan bergabung kembali dengan cintanya atau bahwa itu juga akan berakhir selamanya. Babak kedua menunjukkan Polisi 663 berurusan dengan perpisahannya dengan pacar pramugarinya. 
-        Dia berbicara dengan perabotan apartemennya sampai dia bertemu dengan seorang gadis baru di konter makan siang lokal.</string>
-    <string name="movRom2title">Scott Pilgrim vs. The World</string>
-    <string name="movRom2info">2010 | 1j 52m | Dir. Edgar Wright</string>
-    <string name="movRom2syn">Scott Pilgrim bermain di sebuah band yang bercita-cita untuk sukses. Dia berkencan dengan Knives Chau, seorang gadis SMA lima tahun lebih muda, dan dia belum pulih dari dicampakkan oleh mantan pacarnya, sekarang sukses dengan bandnya sendiri.
-        Ketika Scott jatuh cinta pada Ramona Flowers, dia kesulitan putus dengan Knives dan mencoba menjalin asmara dengan Ramona. Seolah-olah menyulap dua wanita tidak cukup, Ramona datang dengan bagasi: tujuh mantan kekasih, dengan masing-masing Scott harus melakukan pertempuran sampai mati untuk memenangkan Ramona.</string>
+    <string name="fps3title">Half Life</string>
+    <string name="fps3info">Tanggal Rilis: 19 November 1998 \n\nPengembang: Valve \n\nPenerbit: Sierra Studios</string>
+    <string name="fps3syn">Dalam Half-Life, Anda bermain sebagai Gordon Freeman. Freeman baru saja memulai kariernya di divisi Material Anomali di Fasilitas Penelitian Black Mesa yang sangat besar dan berada di bawah tanah di New Mexico. Secara kebetulan, fasilitas ini mendapatkan kendali atas artefak alien misterius, dan membuka celah antar dimensi dengan dunia alien, membuat fasilitas ini berantakan. Freeman harus meminta bantuan militer, tetapi dalam prosesnya akhirnya memanggil marinir AS dan mereka tidak hanya ingin membunuh alien, mereka ingin membunuh semua personel yang terkait dengan Black Mesa! Dia dipaksa untuk menembak, menghancurkan, dan memanjat melalui laboratorium yang hancur, silo rudal yang ditinggalkan, dan area permukaan yang luas untuk melarikan diri dari militer, dan Black Mesa!</string>
+
+    <string name="fps4title">Wolfenstein: The New Order</string>
+    <string name="fps4info">Tanggal Rilis: 20 Mei 2014 \n\nPengembang: MachineGames \n\nPenerbit: Bethesda Softworks</string>
+    <string name="fps4syn">The New Order berlatar belakang alam semesta alternatif di mana Nazi Jerman telah berhasil menggunakan teknologi canggih, memungkinkan mereka untuk membalikkan keadaan melawan Sekutu dan pada akhirnya memenangkan Perang Dunia II, mengambil alih sebagian besar dunia. Alur ceritanya secara longgar terhubung dengan Wolfenstein tahun 2009 dan menampilkan karakter yang kembali, pemimpin Kreisau Circle Caroline Becker dan SS-Oberst-Gruppenführer Wilhelm "Deathshead" Strasse, musuh bebuyutan protagonis seri, operasi pasukan khusus AS Kapten William "B.J." Blazkowicz.</string>
+
+
+    <string name="RPG1title">Final Fantasy VII Remake</string>
+    <string name="RPG1info">Tanggal Rilis: 10 April 2020 \n\n Pengembang: Square Enix \n\nPenerbit: Square Enix</string>
+    <string name="RPG1syn">Remake dari sebuah game Final Fantasy VII (1997). Seorang mantan tentara bergabung dengan kelompok eco-terrorist dalam sebuah misi melawan perusahaan listrik tempat dia bekerja untuk melindungi planet ini dan semua yang tinggal di dalamnya.</string>
+
+    <string name="RPG2title">Persona 4</string>
+    <string name="RPG2info">Tanggal Rilis: 10 Juli 2008 \n\nPengembang: Atlus \n\nPenerbit: Atlus, Square Enix, NIS America, Sega</string>
+    <string name="RPG2syn">Sekelompok siswa sekolah menengah menemukan dunia TV tersembunyi yang disebut The Midnight Channel, sebuah realitas alternatif yang dipenuhi dengan bayangan yang digunakan untuk melakukan pembunuhan. Setelah terbangun dengan kepribadian mereka, kelompok ini memutuskan untuk menyelidiki.</string>
+
+    <string name="RPG3title">Fallout 3</string>
+    <string name="RPG3info">Tanggal Rilis: 28 October 2008 \n\nPengembang: Bethesda Game Studios \n\nPenerbit: Bethesda Softworks</string>
+    <string name="RPG3syn">Di masa depan yang jauh di mana Bumi telah menjadi gurun yang hancur, Anda adalah anak dari ilmuwan terkenal James di Vault 101 bawah tanah yang berada di wilayah Washington DC. Setelah mencapai usia dewasa, ayah Anda secara misterius menghilang ke dunia luar untuk suatu tujuan yang tidak diketahui. Tak lama kemudian, kamu terpaksa melarikan diri ke luar dari tirani pembunuh Vault Overseer yang tidak akan mentolerir perbedaan pendapat. Sekarang, Anda akan mulai mencari ayah Anda seiring dimulainya petualangan Anda yang akan membawa harapan bagi dunia yang suram atau menghancurkannya.</string>
+
+    <string name="RPG4title">"Baldur's Gate 3"</string>
+    <string name="RPG4info">Tanggal Rilis: 3 Agustus 2023 \n\nPengembang: Larian Studios \n\nPenerbit: Larian Studios</string>
+    <string name="RPG4syn">"Baldur's Gate 3 adalah permainan video bermain peran dengan elemen pemain tunggal dan multipemain kooperatif. Pemain dapat membuat satu atau beberapa karakter dan membentuk party bersama sejumlah karakter yang telah dibuat sebelumnya untuk menjelajahi cerita game. Secara opsional, pemain dapat mengambil salah satu karakter mereka dan bergabung secara online dengan pemain lain untuk membentuk party. Permainan ini menerapkan sistem pencarian yang fleksibel dengan berbagai pendekatan untuk menyelesaikan sebagian besar pencarian. Pemain dapat menghilangkan hampir semua karakter non-pemain, terlepas dari pentingnya mereka dalam alur cerita, namun masih terus maju melalui permainan, permainan ini dibagi menjadi tiga babak, masing-masing berlangsung di wilayah yang berbeda di dunia.
+        Dalam babak-babak ini, gim ini mengadopsi format dunia terbuka, yang memungkinkan pemain untuk menyelesaikan misi dalam urutan apa pun."</string>
+
+
+    <string name="fg1title">Street Fighter 6</string>
+    <string name="fg1info">Tanggal Rilis: 2 Juni 2023 \n\nPengembang: Capcom \n\nPenerbit: Capcom</string>
+    <string name="fg1desc">"Here comes Capcom's new challenger ! Street Fighter 6 diluncurkan pada tanggal 2 Juni 2023 dan merupakan evolusi berikutnya dari seri ini.
+Didukung oleh RE ENGINE milik Capcom, pengalaman bermain Street Fighter 6 mencakup tiga mode permainan yang berbeda yang menampilkan World Tour, Fighting Ground, dan Battle Hub.
+Mainkan para master legendaris dan favorit penggemar baru seperti Ryu, Chun-Li, Luke, Jamie, Kimberly, dan banyak lagi di edisi terbaru ini dengan setiap karakter menampilkan desain ulang yang mencolok."</string>
+
+    <string name="fg2title">Guilty Gear -Strive</string>
+    <string name="fg2info">Tanggal Rilis: 11 Juni 2021 \n\nPengembang: Arc System Works \n\nPenerbit: Arc System Works, Bandai Namco Entertainment</string>
+    <string name="fg2desc">Dibuat sebagai "rekonstruksi lengkap dari Guilty Gear", Guilty Gear Strive mempertahankan esensi inti dari seri ini tetapi merombak banyak fitur dan mekanisme, kecuali untuk menghilangkan mekanisme khas seri ini, yaitu Instant Kill. Game ini memperkenalkan fitur "Wall Break", yang memungkinkan transisi panggung saat kombo dimulai di sudut arena.</string>
+
+    <string name="fg3title">Tekken 8</string>
+    <string name="fg3info">Tanggal Rilis: 26 Januari 2024 \n\nPengembang: Bandai Namco Studios \n\nPenerbit: Bandai Namco Entertainment</string>
+    <string name="fg3desc">Menurut sutradara Katsuhiro Harada, gameplay dalam Tekken 8 akan berfokus pada agresivitas, memberikan penghargaan kepada pemain yang proaktif dibandingkan dengan pemain yang defensif. Selain itu, Tekken 8 juga akan memperkenalkan sistem gameplay baru yang dinamakan "Heat". Heat State tidak hanya memberikan kerusakan chip dan moveset tambahan, tetapi juga mengubah properti gerakan beberapa karakter, seperti guard break yang berat. Petarung juga dapat membatalkan jurus yang telah ditentukan ke dalam Heat State. Pengatur waktu Heat State dapat dihentikan jika moveset petarung sedang digunakan. Saat melindungi dari serangan berat dalam keadaan normal, atau karakter Heat State, petarung akan menerima chip damage yang memungkinkan regenerasi health bar.
+Namun, tidak seperti sistem regenerasi health bar khusus mode Tag dari game Tekken Tag Tournament, health bar petarung yang dapat dipulihkan hanya dapat dipulihkan dengan menyerang lawan. Selain itu, sistem Rage dari entri Tekken sebelumnya kembali ke Tekken 8, meskipun dengan perubahan yang patut dicatat. Misalnya, Rage Drive telah dipisahkan dan dikerjakan ulang sebagai "Heat Smash," sebuah gerakan sistem "Heat".</string>
     
+    <string name="fg4title">Mortal Kombat 1</string>
+    <string name="fg4info">Tanggal Rilis: 19 September 2023 \n\nPengembang: NetherRealm Studios \n\nPenerbit: Warner Bros. Games</string>
+    <string name="fg4desc">Mortal Kombat 1 menampilkan mode cerita, multiplayer online dengan rollback netcode, dan gameplay offline. Gim ini memperkenalkan fitur yang disebut Kameo Fighters, yang memberikan bantuan kepada pemain selama pertarungan dengan cara yang mirip dengan petarung bantuan tag pada mode Towers of Time di Mortal Kombat 11 (2019). Karakter-karakter ini terpisah dari daftar utama dan dipilih sebelum setiap pertarungan. Ada dua jenis bantuan yang diberikan oleh setiap Petarung Kameo: Pemanggilan, yang dapat dilakukan saat pemain tetap berada di satu tempat, dan Penyergapan, yang dapat dilakukan apa pun yang dilakukan pemain. Mereka juga dapat dipanggil untuk melakukan Fatalities dan Brutalities mereka sendiri. Selain itu, Kameo Fighter yang dipilih juga memengaruhi seberapa besar health yang dimiliki pemain dalam pertarungan.</string>
 </resources>

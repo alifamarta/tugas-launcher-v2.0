@@ -14,25 +14,26 @@
         android:background="@color/red"
         app:tabTextColor="@color/white"
         app:tabIndicatorColor="@color/white"
+        app:tabIndicatorFullWidth="true"
         app:tabSelectedTextColor="@color/white" >
         
         <com.google.android.material.tabs.TabItem
             android:id="@+id/tab1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ACTION" />
+            android:text="FPS" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/tab2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="COMEDY" />
+            android:text="RPG" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/tab3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ROMANCE" />
+            android:text="FIGHTING" />
         
     </com.google.android.material.tabs.TabLayout>
 

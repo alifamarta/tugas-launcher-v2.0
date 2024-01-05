@@ -21,7 +21,7 @@
                 android:layout_width="170dp"
                 android:layout_height="243dp"
                 android:layout_marginTop="50dp"
-                android:src="@drawable/chungkingexpress" />
+                android:src="@drawable/sf6" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -29,58 +29,132 @@
                 android:layout_marginTop="45dp"
                 android:layout_marginStart="175dp"
                 android:textSize="20sp"
-                android:text="@string/movRom1title" />
+                android:text="@string/fg1title" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="175dp"
                 android:layout_marginTop="80dp"
-                android:text="@string/movRom1info"/>
+                android:text="@string/fg1info"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="175dp"
-                android:layout_marginTop="120dp"
+                android:layout_marginTop="180dp"
                 android:lineSpacingExtra="@dimen/line_spacing"
-                android:text="@string/movRom1syn" />
+                android:text="@string/fg1desc" />
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="530dp"
+                android:layout_marginTop="570dp"
                 app:dividerColor="@android:color/darker_gray"/>
 
             <ImageView
                 android:layout_width="170dp"
                 android:layout_height="243dp"
-                android:layout_marginTop="560dp"
-                android:src="@drawable/scottvsworld"
+                android:layout_marginTop="620dp"
+                android:src="@drawable/ggst"
                 />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="555dp"
-                android:layout_marginStart="175dp"
-                android:textSize="20sp"
-                android:text="@string/movRom2title"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="615dp"
                 android:layout_marginStart="175dp"
-                android:text="@string/movRom2info"/>
+                android:textSize="20sp"
+                android:text="@string/fg2title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="650dp"
+                android:layout_marginStart="175dp"
+                android:text="@string/fg2info"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="175dp"
-                android:layout_marginTop="650dp"
+                android:layout_marginTop="765dp"
                 android:textSize="15sp"
-                android:text="@string/movRom2syn"/>
+                android:text="@string/fg2desc"/>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1000dp"
+                app:dividerColor="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="243dp"
+                android:layout_marginTop="1050dp"
+                android:src="@drawable/tk8"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1045dp"
+                android:layout_marginStart="175dp"
+                android:textSize="20sp"
+                android:text="@string/fg3title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1080dp"
+                android:layout_marginStart="175dp"
+                android:text="@string/fg3info"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="1180dp"
+                android:textSize="15sp"
+                android:text="@string/fg3desc"/>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1890dp"
+                app:dividerColor="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="243dp"
+                android:layout_marginTop="1940dp"
+                android:layout_marginLeft="2dp"
+                android:src="@drawable/mk1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1935dp"
+                android:layout_marginStart="175dp"
+                android:textSize="20sp"
+                android:text="@string/fg4title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1970dp"
+                android:layout_marginStart="175dp"
+                android:text="@string/fg4info"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="2070dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="15sp"
+                android:text="@string/fg4desc"/>
         </RelativeLayout>
     </ScrollView>
 

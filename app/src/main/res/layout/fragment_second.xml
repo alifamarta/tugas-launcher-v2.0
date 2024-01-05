@@ -21,7 +21,7 @@
                 android:layout_width="170dp"
                 android:layout_height="243dp"
                 android:layout_marginTop="50dp"
-                android:src="@drawable/theniceguys" />
+                android:src="@drawable/ff7remake" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -29,58 +29,131 @@
                 android:layout_marginTop="45dp"
                 android:layout_marginStart="175dp"
                 android:textSize="20sp"
-                android:text="@string/movCom1title" />
+                android:text="@string/RPG1title" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="175dp"
                 android:layout_marginTop="80dp"
-                android:text="@string/movCom1info"/>
+                android:text="@string/RPG1info"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="175dp"
-                android:layout_marginTop="120dp"
+                android:layout_marginTop="180dp"
                 android:lineSpacingExtra="@dimen/line_spacing"
-                android:text="@string/movCom1syn" />
+                android:text="@string/RPG1syn" />
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="530dp"
+                android:layout_marginTop="370dp"
                 app:dividerColor="@android:color/darker_gray"/>
 
             <ImageView
                 android:layout_width="170dp"
                 android:layout_height="243dp"
-                android:layout_marginTop="560dp"
-                android:src="@drawable/superbad"
+                android:layout_marginTop="420dp"
+                android:src="@drawable/p4"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="555dp"
+                android:layout_marginTop="415dp"
                 android:layout_marginStart="175dp"
                 android:textSize="20sp"
-                android:text="@string/movCom2title"/>
+                android:text="@string/RPG2title"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="595dp"
+                android:layout_marginTop="450dp"
                 android:layout_marginStart="175dp"
-                android:text="@string/movCom2info"/>
+                android:text="@string/RPG2info"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="175dp"
-                android:layout_marginTop="635dp"
+                android:layout_marginTop="590dp"
                 android:textSize="15sp"
-                android:text="@string/movCom2syn"/>
+                android:text="@string/RPG2syn"/>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="790dp"
+                app:dividerColor="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="243dp"
+                android:layout_marginTop="840dp"
+                android:src="@drawable/fallout3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="835dp"
+                android:layout_marginStart="175dp"
+                android:textSize="20sp"
+                android:text="@string/RPG3title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="870dp"
+                android:layout_marginStart="175dp"
+                android:text="@string/RPG3info"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="970dp"
+                android:textSize="15sp"
+                android:text="@string/RPG3syn"/>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1330dp"
+                app:dividerColor="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="243dp"
+                android:layout_marginTop="1380dp"
+                android:src="@drawable/bg3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1375dp"
+                android:layout_marginStart="175dp"
+                android:textSize="20sp"
+                android:text="@string/RPG4title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1410dp"
+                android:layout_marginStart="175dp"
+                android:text="@string/RPG4info"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="1510dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="15sp"
+                android:text="@string/RPG4syn"/>
         </RelativeLayout>
     </ScrollView>
 </FrameLayout>
