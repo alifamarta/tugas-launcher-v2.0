@@ -37,6 +37,7 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation("androidx.fragment:fragment:1.6.2")
+    implementation("com.google.android.exoplayer:exoplayer:2.18.7")
     configurations.implementation{
         exclude("org.jetbrains.kotlin", ("kotlin-stdlib-jdk8"    ))
     }

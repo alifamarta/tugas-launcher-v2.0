@@ -17,8 +17,7 @@ public class ActivityHomepage extends AppCompatActivity {
     ImageView btnTwoActivity;
     ImageView btnAlarm;
     ImageView btnMaps;
-
-    ImageView btnMovies;
+    ImageView btnGamelist;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +30,7 @@ public class ActivityHomepage extends AppCompatActivity {
         btnTwoActivity = (ImageView) findViewById(R.id.btnTwoActivity);
         btnAlarm = (ImageView) findViewById(R.id.btnAlarm);
         btnMaps = (ImageView) findViewById(R.id.btnMaps);
-        btnMovies = (ImageView) findViewById(R.id.btnMovies);
+        btnGamelist = (ImageView) findViewById(R.id.btnGamelist);
 
         clickListener();
     }
@@ -89,11 +88,11 @@ public class ActivityHomepage extends AppCompatActivity {
             }
         });
 
-        btnMovies.setOnClickListener(new View.OnClickListener() {
+        btnGamelist.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent movIntent = new Intent(ActivityHomepage.this, FragmentActivity.class);
-                startActivity(movIntent);
+                Intent Intent = new Intent(ActivityHomepage.this, FragmentActivity.class);
+                startActivity(Intent);
             }
         });
     }

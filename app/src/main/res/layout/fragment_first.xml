@@ -7,6 +7,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.FirstFragment">
 
+
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,6 +19,7 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/fps1img"
                 android:layout_width="170dp"
                 android:layout_height="243dp"
                 android:layout_marginTop="50dp"
@@ -53,6 +55,7 @@
                 app:dividerColor="@android:color/darker_gray"/>
 
             <ImageView
+                android:id="@+id/fps2img"
                 android:layout_width="170dp"
                 android:layout_height="243dp"
                 android:layout_marginTop="420dp"
@@ -89,6 +92,7 @@
                 app:dividerColor="@android:color/darker_gray"/>
 
             <ImageView
+                android:id="@+id/fps3img"
                 android:layout_width="170dp"
                 android:layout_height="243dp"
                 android:layout_marginTop="1002dp"
@@ -125,6 +129,7 @@
                 app:dividerColor="@android:color/darker_gray"/>
 
             <ImageView
+                android:id="@+id/fps4img"
                 android:layout_width="170dp"
                 android:layout_height="243dp"
                 android:layout_marginTop="1640dp"

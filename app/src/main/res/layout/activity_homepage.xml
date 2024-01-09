@@ -30,6 +30,7 @@
         android:layout_marginEnd="10dp"
         android:src="@drawable/scrollice" />
 
+
     <ImageView
         android:id="@+id/btnTwoActivity"
         android:layout_width="120dp"
@@ -52,9 +53,10 @@
         android:src="@drawable/maps" />
 
     <ImageView
-        android:id="@+id/btnMovies"
+        android:id="@+id/btnGamelist"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginEnd="10dp"
-        android:src="@drawable/movie" />
+        android:src="@drawable/games" />
+
 </GridLayout>
