@@ -1,5 +1,7 @@
 package com.helloworld.fragment;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,38 +9,28 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.helloworld.R;
+import com.helloworld.activity.PlayerActivity;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link ThirdFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class ThirdFragment extends Fragment {
-
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+    
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
+    
     private String mParam1;
     private String mParam2;
+    
+    ImageView fg1img;
+    ImageView fg2img;
+    ImageView fg3img;
+    ImageView fg4img;
 
     public ThirdFragment() {
         // Required empty public constructor
     }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment ThirdFragment.
-     */
-    // TODO: Rename and change types and number of parameters
+    
     public static ThirdFragment newInstance(String param1, String param2) {
         ThirdFragment fragment = new ThirdFragment();
         Bundle args = new Bundle();
@@ -61,6 +53,50 @@ public class ThirdFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_third, container, false);
+        View view = inflater.inflate(R.layout.fragment_third, container, false);
+        fg1img = view.findViewById(R.id.fg1img);
+        fg2img = view.findViewById(R.id.fg2img);
+        fg3img = view.findViewById(R.id.fg3img);
+        fg4img = view.findViewById(R.id.fg4img);
+
+        fg1img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playVideo("streetfighter6");
+            }
+        });
+
+        fg2img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playVideo("ggst");
+            }
+        });
+
+        fg3img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playVideo("tekken8");
+            }
+        });
+
+        fg4img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playVideo("mortalkombat1");
+            }
+        });
+        
+        
+        return view;
+    }
+
+    private void playVideo(String videoName) {
+        String videoPath = "android.resource://" + requireActivity().getPackageName() + "/raw/" + videoName;
+        Uri videoUri = Uri.parse(videoPath);
+
+        Intent intent = new Intent(requireContext(), PlayerActivity.class);
+        intent.putExtra("VIDEO_URI", videoUri.toString());
+        startActivity(intent);
     }
 }
