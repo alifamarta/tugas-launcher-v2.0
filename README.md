@@ -3,7 +3,7 @@
 <div align="center"><b>Nama: Alif Nur Fathlii Amarta <br>
 NIM: 312210326 <br>
 Kelas: TI.22.A3 <br> <br>
-Link PDF: <br> <br> <img src ="https://github.com/alifamarta/tugas-launcher-v2.0/assets/115516820/d433a6f0-28db-4016-ad18-bcedff9039a1" width="50">
+Link PDF: <br> <br> <a href="https://drive.google.com/file/d/1DN__Fuc0QtjkK0HuDGd1auK9QsrvO2F9/view?usp=sharing"><img src ="https://github.com/alifamarta/tugas-launcher-v2.0/assets/115516820/d433a6f0-28db-4016-ad18-bcedff9039a1" width="50"></a>
 
 </b></div>
 
