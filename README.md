@@ -6,6 +6,8 @@ Kelas: TI.22.A3</b></div>
 
 # Dokumentasi UAS Pemograman Mobile
 ## Tampilan Menu
+Menu ini berisi activity hello, activity count, activity scrollice, activity message, Intent Maps, Activity Alarm dan Activity Fragment.
+
 <img src="https://github.com/alifamarta/tugas-launcher-v2.0/assets/115516820/7b4ccfd4-3fbe-4e9c-b813-6f68fe2e2789" width="240">
 
 ## Isi Konten
